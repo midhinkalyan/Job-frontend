@@ -1,0 +1,47 @@
+.home-body {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-panel {
+  width: 25%;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.left-panel h4 {
+  margin: 12px 0 6px;
+}
+
+.left-panel label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.apply-btn {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #219150;
+}
+
+.right-panel {
+  flex: 1;
+}
+.left-panel input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
